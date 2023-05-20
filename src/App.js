@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ToDoList from "./ToDoList";
 
 function App() {
+  const [todos, setTodos] = useState([]);
   return (
     <>
       <ToDoList />
