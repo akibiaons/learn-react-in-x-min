@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ToDoList from "./ToDoList";
 
 function App() {
@@ -6,6 +6,9 @@ function App() {
     <>
       <ToDoList />
       <input type="text" />
+      <button>Add To Do</button>
+      <button>Clear To Do</button>
+      <div>0 left To Do</div>
     </>
   );
 }
